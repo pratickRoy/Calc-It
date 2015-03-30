@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <!--android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardUseCompatPadding="false"
+        card_view:cardCornerRadius="0dp"
+        card_view:cardElevation="@dimen/elevation_of_2nd_component"
+        card_view:cardBackgroundColor="@color/cyan900">
+
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <include android:id="@+id/modesHeading"
+                    layout="@layout/layout_fragment__menu_application_settings_panel_headings_modes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                </include>
+
+                <include android:id="@+id/modesContent"
+                    layout="@layout/layout_fragment__menu_application_settings_panel_contents_modes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                </include>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView-->
+
+</FrameLayout>

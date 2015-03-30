@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout android:id="@+id/evaluationPanel"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <Button android:id="@+id/numKey5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/five"
+            android:background="#303F9F"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            />
+
+        <Button android:id="@+id/numKey6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/six"
+            android:background="#303F9F"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            />
+
+        <Button android:id="@+id/numKey7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/seven"
+            android:background="#303F9F"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            />
+
+        <Button android:id="@+id/numKey8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/eight"
+            android:background="#303F9F"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            />
+
+        <Button android:id="@+id/numKey9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/nine"
+            android:background="#303F9F"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout>

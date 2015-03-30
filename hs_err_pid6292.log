@@ -1,0 +1,125 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Cannot create GC thread. Out of system resources.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (gcTaskThread.cpp:48), pid=6292, tid=1156
+#
+# JRE version:  (8.0_40-b25) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.40-b25 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002b20800):  JavaThread "Unknown thread" [_thread_in_vm, id=1156, stack(0x0000000002a20000,0x0000000002b20000)]
+
+Stack: [0x0000000002a20000,0x0000000002b20000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x32b47a]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002b20800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=1156, stack(0x0000000002a20000,0x0000000002b20000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff731c80000 - 0x00007ff731cb7000 	D:\Programs [Installed]\Programmin Tools\Java\jdk1.8.0_40\bin\java.exe
+0x00007ffc366d0000 - 0x00007ffc3687c000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffc349b0000 - 0x00007ffc34aea000 	C:\Windows\system32\KERNEL32.DLL
+0x00007ffc33df0000 - 0x00007ffc33eff000 	C:\Windows\system32\KERNELBASE.dll
+0x00007ffc32660000 - 0x00007ffc326e8000 	C:\Windows\system32\apphelp.dll
+0x00007ffc27060000 - 0x00007ffc270af000 	C:\Windows\AppPatch\AppPatch64\AcGenral.DLL
+0x00007ffc36270000 - 0x00007ffc36317000 	C:\Windows\system32\msvcrt.dll
+0x00007ffc33820000 - 0x00007ffc3384b000 	C:\Windows\SYSTEM32\SspiCli.dll
+0x00007ffc344b0000 - 0x00007ffc34501000 	C:\Windows\system32\SHLWAPI.dll
+0x00007ffc34510000 - 0x00007ffc34681000 	C:\Windows\system32\USER32.dll
+0x00007ffc36370000 - 0x00007ffc364e8000 	C:\Windows\system32\ole32.dll
+0x00007ffc34af0000 - 0x00007ffc35eff000 	C:\Windows\system32\SHELL32.dll
+0x00007ffc32ff0000 - 0x00007ffc3300e000 	C:\Windows\SYSTEM32\USERENV.dll
+0x00007ffc34090000 - 0x00007ffc34135000 	C:\Windows\system32\ADVAPI32.dll
+0x00007ffc32320000 - 0x00007ffc3233b000 	C:\Windows\SYSTEM32\MPR.dll
+0x00007ffc33f50000 - 0x00007ffc34087000 	C:\Windows\system32\RPCRT4.dll
+0x00007ffc36660000 - 0x00007ffc366b7000 	C:\Windows\SYSTEM32\sechost.dll
+0x00007ffc34690000 - 0x00007ffc34866000 	C:\Windows\SYSTEM32\combase.dll
+0x00007ffc36510000 - 0x00007ffc36654000 	C:\Windows\system32\GDI32.dll
+0x00007ffc33a40000 - 0x00007ffc33a54000 	C:\Windows\SYSTEM32\profapi.dll
+0x00007ffc32070000 - 0x00007ffc3210f000 	C:\Windows\SYSTEM32\SHCORE.dll
+0x00007ffc36320000 - 0x00007ffc36354000 	C:\Windows\system32\IMM32.DLL
+0x00007ffc34870000 - 0x00007ffc349a9000 	C:\Windows\system32\MSCTF.dll
+0x00007ffc2fa80000 - 0x00007ffc2fcda000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17031_none_6242a4b3ecbb55a1\COMCTL32.dll
+0x0000000060fc0000 - 0x0000000061092000 	D:\Programs [Installed]\Programmin Tools\Java\jdk1.8.0_40\jre\bin\msvcr100.dll
+0x0000000064f80000 - 0x0000000065803000 	D:\Programs [Installed]\Programmin Tools\Java\jdk1.8.0_40\jre\bin\server\jvm.dll
+0x00007ffc2bb60000 - 0x00007ffc2bb69000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ffc31fa0000 - 0x00007ffc31fbf000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffc2b370000 - 0x00007ffc2b37a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ffc366c0000 - 0x00007ffc366c7000 	C:\Windows\system32\PSAPI.DLL
+0x00007ffc34140000 - 0x00007ffc34198000 	C:\Windows\system32\WS2_32.dll
+0x00007ffc31f70000 - 0x00007ffc31f9a000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x00007ffc35f00000 - 0x00007ffc35f09000 	C:\Windows\system32\NSI.dll
+0x00007ffc33cf0000 - 0x00007ffc33d3a000 	C:\Windows\SYSTEM32\cfgmgr32.dll
+0x00007ffc328a0000 - 0x00007ffc328c6000 	C:\Windows\SYSTEM32\DEVOBJ.dll
+0x0000000064f70000 - 0x0000000064f7f000 	D:\Programs [Installed]\Programmin Tools\Java\jdk1.8.0_40\jre\bin\verify.dll
+0x0000000064f40000 - 0x0000000064f69000 	D:\Programs [Installed]\Programmin Tools\Java\jdk1.8.0_40\jre\bin\java.dll
+0x0000000064f20000 - 0x0000000064f36000 	D:\Programs [Installed]\Programmin Tools\Java\jdk1.8.0_40\jre\bin\zip.dll
+
+VM Arguments:
+java_command: <unknown>
+java_class_path (initial): .
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\Programs [Installed]\Programmin Tools\Java\jdk1.8.0_40
+PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+USERNAME=Pratick
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8.1 , 64 bit Build 9600 (6.3.9600.17056)
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 69 stepping 1, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2
+
+Memory: 4k page, physical 7766124k(1176288k free), swap 9608508k(4604k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.40-b25) for windows-amd64 JRE (1.8.0_40-b25), built on Feb 10 2015 21:53:57 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Mon Mar 16 23:02:33 2015
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

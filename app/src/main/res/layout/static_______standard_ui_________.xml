@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/standardCalcUI"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipChildren="false"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include android:id="@+id/actionBar"
+        layout="@layout/layout_fragment__action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    </include>
+
+    <include android:id="@+id/viewScreen"
+        layout="@layout/layout_fragment__view_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4">
+    </include>
+
+    <include android:id="@+id/standardButtonPanel"
+        layout="@layout/layout_fragment__standard_button_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    </include>
+
+</LinearLayout>

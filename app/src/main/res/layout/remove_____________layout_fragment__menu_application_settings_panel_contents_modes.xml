@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginRight="@dimen/minimum_text_padding"
+        android:layout_marginBottom="@dimen/minimum_text_padding"
+
+        card_view:cardUseCompatPadding="false"
+        card_view:cardCornerRadius="0dp"
+        card_view:cardElevation="@dimen/elevation_of_2nd_component"
+        card_view:cardBackgroundColor="@color/lightBlue600">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button android:id="@+id/ModeContentStandard"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/cyan800"
+
+                android:text="@string/modesContentStandardTextField"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/menu_content_text_size"
+                android:gravity="left"
+
+                android:paddingLeft="@dimen/menu_content_text_padding"
+                android:paddingTop="@dimen/minimum_text_padding"
+            />
+            <Button android:id="@+id/ModeContentScientific"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/cyan700"
+
+                android:text="@string/modesContentScientificTextField"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/menu_content_text_size"
+                android:gravity="left"
+
+                android:paddingLeft="@dimen/menu_content_text_padding"
+                android:paddingTop="@dimen/minimum_text_padding"
+            />
+
+            <Button android:id="@+id/ModeContentProgramming"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/cyan600"
+
+                android:text="@string/modesContentProgrammingTextField"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/menu_content_text_size"
+                android:gravity="left"
+
+                android:paddingLeft="@dimen/menu_content_text_padding"
+                android:paddingTop="@dimen/minimum_text_padding"
+            />
+
+            <Button android:id="@+id/ModeContentStatistical"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/cyan500"
+
+                android:text="@string/modesContentStatisticalTextField"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/menu_content_text_size"
+                android:gravity="left"
+
+                android:paddingLeft="@dimen/menu_content_text_padding"
+                android:paddingTop="@dimen/minimum_text_padding"
+                android:paddingBottom="@dimen/minimum_text_padding"
+            />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView-->
+</FrameLayout>

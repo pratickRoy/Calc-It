@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout
+    android:id="@+id/settings_panels_card_heading"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffe3e3e3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/settings_panel_card_margin"
+
+                android:background="@drawable/layout_style_element__drop_shadow">
+
+                <Button android:id="@+id/settingsPanelCardHeadingsModes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:text="@string/settings_panel_card_headings_Modes"
+                    android:textAllCaps="false"
+                    android:background="@color/Transparent"
+                    android:gravity="bottom"
+                    android:paddingLeft="@dimen/settings_panel_card_heading_text_padding"
+                    android:textSize="@dimen/settings_panel_card_heading_text_size"
+
+                     />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@color/black"
+                    android:layout_marginBottom="@dimen/minimum_text_padding"
+                    android:layout_marginLeft="@dimen/settings_panel_card_heading_text_padding"
+                    android:layout_marginRight="@dimen/settings_panel_card_heading_text_padding"
+                    android:layout_weight="1"
+                />
+
+
+
+
+                <Button android:id="@+id/settingsPanelCardContentModesStandard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:text="@string/settings_panel_card_content_Modes_standard"
+                    android:textAllCaps="false"
+                    android:background="@color/Transparent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/settings_panel_card_content_text_padding"
+                    android:textSize="@dimen/settings_panel_card_content_text_size"
+
+                />
+
+                <Button android:id="@+id/settingsPanelCardContentModesScientific"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:text="@string/settings_panel_card_content_Modes_scientific"
+                    android:textAllCaps="false"
+                    android:background="@color/Transparent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/settings_panel_card_content_text_padding"
+                    android:textSize="@dimen/settings_panel_card_content_text_size"
+
+                    />
+
+                <Button android:id="@+id/settingsPanelCardContentModesProgramming"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:text="@string/settings_panel_card_content_Modes_programming"
+                    android:textAllCaps="false"
+                    android:background="@color/Transparent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/settings_panel_card_content_text_padding"
+                    android:textSize="@dimen/settings_panel_card_content_text_size"
+
+                    />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+</com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout>

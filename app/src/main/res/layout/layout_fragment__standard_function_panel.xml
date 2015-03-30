@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout android:id="@+id/standardFunctionPanel"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/add"
+            android:background="@color/Amber600"
+            android:id="@+id/funcKeyAdd"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+
+
+            />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/sub"
+            android:background="@color/Amber700"
+            android:id="@+id/funcKeySub"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+
+            />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/mul"
+            android:background="@color/Amber800"
+            android:id="@+id/funcKeyMul"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+
+            />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/div"
+            android:background="@color/Amber900"
+            android:id="@+id/funcKeyDiv"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+
+            />
+
+    </LinearLayout>
+
+</com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout>

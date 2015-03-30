@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout android:id="@+id/actionBar"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Orange800">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Orange800"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            />
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="8" />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Orange800"
+            android:textColor="@color/white"
+            android:text="sign in/sign up"
+            android:padding="10dp"
+            android:textAllCaps="false"
+
+            />
+
+    </LinearLayout>
+
+</com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout>

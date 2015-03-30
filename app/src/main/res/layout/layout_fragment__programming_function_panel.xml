@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout android:id="@+id/evaluationPanel"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+            <Button android:id="@+id/funcKeyAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/add"
+                android:background="@color/Amber800"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+            />
+
+            <Button android:id="@+id/funcKeyToBin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/toBin"
+                android:textAllCaps="false"
+                android:background="@color/Amber900"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+            />
+
+            <Button android:id="@+id/funcKeyOnesComplement"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/onesComplement"
+                android:background="@color/Amber700"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+            />
+
+            <Button android:id="@+id/funcKeyBitwiseLeft"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/bitwiseLeft"
+                android:background="@color/Amber700"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button android:id="@+id/funcKeySub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sub"
+                android:background="@color/Amber800"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button android:id="@+id/funcKeyToDec"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/toDec"
+                android:textAllCaps="false"
+                android:background="@color/Amber900"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+
+
+            <Button android:id="@+id/funcKeyTwosComplement"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/twosComplement"
+                android:background="@color/Amber700"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button android:id="@+id/funcKeyBitwiseRight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/bitwiseRight"
+                android:background="@color/Amber700"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button android:id="@+id/funcKeyMul"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/mul"
+                android:background="@color/Amber800"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button android:id="@+id/funcKeyToHex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/toHex"
+                android:textAllCaps="false"
+                android:background="@color/Amber900"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button android:id="@+id/funcKeyDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Decimal"
+                android:background="@color/Amber600"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button android:id="@+id/funcKeyBinary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Binary"
+                android:background="@color/Amber600"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button android:id="@+id/funcKeyDiv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/div"
+                android:background="@color/Amber800"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button android:id="@+id/funcKeyToOct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/toOct"
+                android:textAllCaps="false"
+                android:background="@color/Amber900"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button android:id="@+id/funcKeyOctal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Octal"
+                android:background="@color/Amber600"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button android:id="@+id/funcKeyHexadecimal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Hexadecimal"
+                android:background="@color/Amber600"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout>

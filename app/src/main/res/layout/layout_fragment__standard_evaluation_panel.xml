@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout android:id="@+id/evaluationPanel"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/fact"
+            android:background="@color/lightBlue900"
+            android:id="@+id/evalKeyFact"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/power"
+            android:background="@color/lightBlue900"
+            android:id="@+id/evalKeyPower"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/backSpace"
+            android:background="@color/lightBlue900"
+            android:id="@+id/evalKeyBackspace"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/evaluation"
+            android:background="@color/lightBlue900"
+            android:id="@+id/evalKeyEvaluation"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+        />
+
+    </LinearLayout>
+
+</com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout>

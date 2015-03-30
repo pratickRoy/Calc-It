@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/Amber600"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:id="@+id/LinearUIVerticalL1N1Z1"
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:background="@color/lightBlue500"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout android:id="@+id/LinearUIHorizontalL1N1Z1"
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@color/blueGrey900"
+            android:layout_height="match_parent">
+
+            <LinearLayout android:id="@+id/LinearUIVerticalL2N1Z1"
+
+                xmlns:android="http://schemas.android.com/apk/res/android"
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/LinearUIHorizontalL2N2Z2"
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+</LinearLayout>

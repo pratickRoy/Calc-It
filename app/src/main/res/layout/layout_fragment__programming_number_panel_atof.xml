@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout android:id="@+id/evaluationPanel"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+            <Button android:id="@+id/numKeyA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/A"
+                android:background="#3F51B5"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+            />
+
+            <Button android:id="@+id/numKeyC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/C"
+                android:background="#3F51B5"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+            />
+
+            <Button android:id="@+id/numKeyE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/E"
+                android:background="#3F51B5"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button android:id="@+id/numKeyB"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/B"
+                android:background="#3F51B5"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button android:id="@+id/numKeyD"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/D"
+                android:background="#3F51B5"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button android:id="@+id/numKeyF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/F"
+                android:background="#3F51B5"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout>

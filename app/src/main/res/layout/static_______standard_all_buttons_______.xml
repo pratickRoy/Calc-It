@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView android:id="@+id/buttonPanel"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardElevation="@dimen/elevation_of_3rd_component"
+        card_view:cardCornerRadius="0dp"
+        card_view:cardUseCompatPadding="false">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include android:id="@+id/basicFunctionPanel"
+                layout="@layout/layout_fragment__standard_function_panel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+            </include>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <include android:id="@+id/basicButtonPanel"
+                    layout="@layout/layout_fragment__standard_button_panel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                </include>
+                <include android:id="@+id/evaluationPanel"
+                    layout="@layout/layout_fragment__standard_evaluation_panel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3">
+                </include>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

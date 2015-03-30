@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Used standard_calculator_ui layout file. -->
+
+    <string name="app_name">Calc-It!</string>
+    <string name="text_hint">Enter the expression here!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="D">D</string>
+    <string name="E">E</string>
+    <string name="F">F</string>
+
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="mul">*</string>
+    <string name="div">/</string>
+    <string name="dot">.</string>
+    <string name="braces">( )</string>
+    <string name="power">^</string>
+    <string name="fact">!</string>
+    <string name="backSpace">\u2190</string>
+    <string name="evaluation">=</string>
+    <string name="hamburgerMenu">\u2162</string>
+
+    <!-- Used standard_calculator_ui layout file. -->
+
+    <string name="modesHeadingTextField">Modes</string>
+    <string name="modesContentStandardTextField">Standard</string>
+    <string name="modesContentScientificTextField">Scientific</string>
+    <string name="modesContentProgrammingTextField">Programming</string>
+    <string name="modesContentStatisticalTextField">Statistical</string>
+
+    <string name="themesHeadingTextField">Themes</string>
+    <string name="themesContentMaterialTextField">Material</string>
+    <string name="themesContentMetroTextField">Metro</string>
+    <string name="themesContentRandomTextField">Random</string>
+
+    <!-- Used standard_calculator_ui layout file. -->
+
+    <string name="sine">sin( )</string>
+    <string name="cosine">cos( )</string>
+    <string name="tangent">tan( )</string>
+    <string name="sineInverse">arcsin( )</string>
+    <string name="cosineInverse">arccos( )</string>
+    <string name="tangentInverse">arctan( )</string>
+    <string name="sineHyperbolic">sinh( )</string>
+    <string name="cosineHyperbolic">cosh( )</string>
+    <string name="tangentHyperbolic">tanh( )</string>
+    <string name="logarithmic">log( )</string>
+    <string name="exponentialLogarithmic">ln( )</string>
+    <string name="Degree">\u00b0</string>
+    <string name="squareRoot">\u221a( )</string>
+    <string name="Radians">\u33AD</string>
+    <string name="roundOff">rnd( )</string>
+
+
+
+    <string name="PI">\u03c0</string>
+    <string name="Exp">e</string>
+    <string name="Angles1">\u2220</string>
+    <string name="Angles2">\u00b0 \' \" </string>
+    <string name="viewScreenDiv">x/y</string>
+    <string name="viewScreenAnyRoot">\u207F\u221a( )</string>
+    <string name="viewScreenAnyPower">( )\u207F</string>
+    <string name="FracToDec">S\u21CCD</string>
+    <string name="Permuation">nPr</string>
+    <string name="Combination">nCr</string>
+    <string name="tenPower">10\u207F</string>
+    <string name="Rand">Rand#</string>
+    <string name="RCL">RCL</string>
+    <string name="ENG">ENG</string>
+    <string name="Rec">Rec</string>
+    <string name="Pol">Pol</string>
+
+
+    <!-- Used standard_calculator_ui layout file. -->
+
+
+    <string name="toBin">toBin( )</string>
+    <string name="toDec">toDec( )</string>
+    <string name="toHex">toHex( )</string>
+    <string name="toOct">toOct( )</string>
+
+    <string name="onesComplement">1\'( )</string>
+    <string name="twosComplement">2\'( )</string>
+    <string name="bitwiseLeft"> \u003c\u003c </string>
+    <string name="bitwiseRight"> \u003e\u003e </string>
+
+    <string name="Decimal"    > DEC( ) </string>
+    <string name="Binary"     > BIN( ) </string>
+    <string name="Octal"      > OCT( ) </string>
+    <string name="Hexadecimal"> HEX( ) </string>
+
+    <string name="settings_panel_card_headings_Modes">Modes</string>
+    <string name="settings_panel_card_content_Modes_standard">Standard</string>
+    <string name="settings_panel_card_content_Modes_scientific">Scientific</string>
+    <string name="settings_panel_card_content_Modes_programming">Programming</string>
+
+
+
+</resources>

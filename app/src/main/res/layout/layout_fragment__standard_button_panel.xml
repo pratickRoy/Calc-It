@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout android:id="@+id/standardButtonPanel"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <!-- Button KeyPad Column 1 -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/one"
+                android:background="@color/lightBlue600"
+                android:id="@+id/numKey1"
+                android:layout_weight="1"
+
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/four"
+                android:background="@color/lightBlue600"
+                android:id="@+id/numKey4"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/seven"
+                android:background="@color/lightBlue600"
+                android:id="@+id/numKey7"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/dot"
+                android:background="@color/lightBlue600"
+                android:id="@+id/numKeyDot"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+        <!-- Button KeyPad Column 2 -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/two"
+                android:background="@color/lightBlue700"
+                android:id="@+id/numKey2"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/five"
+                android:background="@color/lightBlue700"
+                android:id="@+id/numKey5"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/eight"
+                android:background="@color/lightBlue700"
+                android:id="@+id/numKey8"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/zero"
+                android:background="@color/lightBlue700"
+                android:id="@+id/numKey0"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+        <!-- Button KeyPad Column 3 -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/three"
+                android:background="@color/lightBlue800"
+                android:id="@+id/numKey3"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/six"
+                android:background="@color/lightBlue800"
+                android:id="@+id/numKey6"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/nine"
+                android:background="@color/lightBlue800"
+                android:id="@+id/numKey9"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/braces"
+                android:background="@color/lightBlue800"
+                android:id="@+id/numKeyBraces"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.assignment1.androidjammingsessions.customLayouts.godModeFrameLayout>

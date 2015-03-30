@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_similar_between_height">15dp</dimen>
+    <dimen name="button_different_between_height">30dp</dimen>
+    <dimen name="button_editText_between_height">30dp</dimen>
+    <dimen name="topComponent_vertical_margin">15dp</dimen>
+
+    <!-- Used standard_calculator_ui layout file. -->
+
+        <dimen name="mainComponent_text_size">30dp</dimen>
+        <dimen name="minimum_text_padding">10dp</dimen>
+        <dimen name="action_bar_text_height">25dp</dimen>
+
+    <!-- Used calculator_menu layout file. -->
+
+        <dimen name="settings_panel_card_margin">20dp</dimen>
+        <dimen name="settings_panel_card_heading_text_size">20dp</dimen>
+        <dimen name="settings_panel_card_content_text_size">18dp</dimen>
+        <dimen name="settings_panel_card_heading_text_padding">10dp</dimen>
+        <dimen name="settings_panel_card_content_text_padding">25dp</dimen>
+
+    <!-- Used calculator_menu layout file. -->
+
+        <dimen name="elevation_of_1st_component">60dp</dimen>
+        <dimen name="elevation_of_2nd_component">30dp</dimen>
+        <dimen name="elevation_of_3rd_component">0dp</dimen>
+
+</resources>
